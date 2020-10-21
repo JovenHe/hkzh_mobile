@@ -1,0 +1,12 @@
+.am-tab-bar-bar {
+    position: fixed;
+    bottom: 0;
+}
+
+.am-tab-bar .iconfont {
+    font-size: 20px;
+}
+
+.main {
+    padding-bottom: 50px;
+}

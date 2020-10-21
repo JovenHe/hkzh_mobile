@@ -1,0 +1,25 @@
+/* 覆盖 searchHeader的样式 */
+.header {
+    height: 45px;
+    background-color: #f5f6f5;
+    padding: 0 10px;
+    /* 控制左侧小箭头 */
+    :global(.icon-back) {
+        font-size: 16px!important;
+        color: #999;
+    }
+    /* 控制右侧的图标 */
+    :global(.icon-map) {
+        color: #00ae66;
+    }
+    /* 控制search输入框 */
+    :global(.search) {
+        height: 30px;
+    }
+}
+
+.searchHeader {
+    position: relative;
+    top: 0;
+    padding: 0;
+}
